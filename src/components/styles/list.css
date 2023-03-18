@@ -1,0 +1,56 @@
+.task-list {
+  height: 50%;
+  width: 100%;
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.task-list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-height: 100%;
+  margin-bottom: 15px;
+  overflow-y: scroll;
+}
+
+.task-list ul::-webkit-scrollbar{
+  display: none;
+}
+
+.task-list ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+  min-height: 3em;
+  width: 95%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  background-color: rgba(137, 43, 226, 0.302);
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.task-list ul li span {
+  text-align: left;
+  width: 65%;
+  padding-left: 10px;
+  color: #fff;
+}
+
+.task-list ul li .buttons {
+  width: 35%;
+  padding-right: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-around;
+}
+.task-list ul li .buttons img {
+  width: 20px;
+  cursor: pointer;
+}
