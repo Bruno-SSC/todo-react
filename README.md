@@ -1,10 +1,10 @@
-<h1 align="center"> Sitefólio 💻 </h1>
+<h1 align="center"> Todo com ReactJs 💻 </h1>
 
 ## Briefing 📄
 
-A simple todo list app built with ReactJS.
+Um todo básico construído com ReactJs. As features permitem adicionar, marcar como feita, excluir ou editar a tarefa.
 
-> [Acessar](https://todo-react.netlify.app)
+> [Acessar](https://reactodojs.netlify.app)
 
 <h2 align="left"> Objetivo 📌 </h2>
 
